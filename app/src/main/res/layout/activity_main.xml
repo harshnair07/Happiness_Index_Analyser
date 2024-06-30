@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background_splash"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME!"
+       android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        android:padding="12dp"
+        android:layout_margin="10dp"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btn_selfAssess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button"
+        android:text="Self Assesment"
+        android:textSize="23dp"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btn_Profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button"
+        android:text="Manage Profiling"
+        android:textSize="23dp"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btn_Report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button"
+        android:text="Self Assessment Report"
+        android:textSize="23dp"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btn_Feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button"
+        android:text="FeedBack"
+        android:textSize="23dp"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

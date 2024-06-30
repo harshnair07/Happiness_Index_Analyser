@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffb703"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="REPORT!!"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="326dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:textAlignment="center"
+
+        android:contentDescription="IMAGE"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hey Congratulations!!"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#b23a48"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        tools:text="Username"
+        />
+    <TextView
+        android:id="@+id/tv_Score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#4f5d75"
+        tools:text="Your Happiness Index is :"
+        />
+    <TextView
+        android:id="@+id/tv_Suffering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#0f4c5c"
+        tools:text="Suffering Area: "
+        />
+    <TextView
+        android:id="@+id/tv_Struggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#0f4c5c"
+        tools:text="Struggling Area: "
+        />
+    <TextView
+        android:id="@+id/tv_Thriving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#0f4c5c"
+        tools:text="Thriving Area: "
+        />
+
+    <Button
+        android:id="@+id/btn_finishresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:text="FINISH"
+        android:gravity="center"
+        android:background="@drawable/shape_button"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

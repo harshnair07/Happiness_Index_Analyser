@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "417127008957",
+    "project_id": "happinessindexanalyzer",
+    "storage_bucket": "happinessindexanalyzer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417127008957:android:ace7eea600b2742c28c5d4",
+        "android_client_info": {
+          "package_name": "eu.example.happinessindexanalyzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417127008957-q48239823tc5rj99of753cktluos9eb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSwpK8PfwFxXHP_3mErEeDHfRvT7mYGeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417127008957-q48239823tc5rj99of753cktluos9eb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
